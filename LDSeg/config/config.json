@@ -1,0 +1,61 @@
+{
+
+  "version": "1.1.1",
+
+  "title": "XARC   Lipid-Droplet-Segmentation-Tool_1.1.1.190624_internal-evaluation - (confidential)",
+
+  "modulePath": "./THU",
+
+  "includeList": [
+
+    "lipid_droplet.py"
+
+  ],
+
+  "importList": [
+
+    "import cv2",
+
+    "import numpy as np",
+
+    "import sys,os",
+
+    "import pylab as plt",
+
+    "from imageio import imwrite"
+
+  ],
+
+  "keepZoom": true,
+
+  "pyqtImgModel": "ndarray",
+
+  "autoSave": true,
+
+  "twoColumn": true,
+
+  "savePath": "./workspace.pkl",
+
+  "listWidgetWidth": 300,
+
+  "paramWidgetWidth": 300,
+
+  "imgAlwaysNormalize": true,
+
+  "productType": "container",
+
+  "fixedModule": "lipid_droplet.py",
+
+  "fixedMethod": "recursionOpenMethod",
+
+  "recommendPhases": [
+
+    "colorful_markers",
+
+    "lipid_count",
+
+    "dataTable"
+
+  ]
+
+}

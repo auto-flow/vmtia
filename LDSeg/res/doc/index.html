@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="Description" content="用户文档" />
+    <link rel="shortcut icon" href="http://os.zheng0716.com/static/image/favicon.ico" />
+    <title>用户文档</title>
+    <script src="./static/js/marked.js"></script>
+    <script src="./static/js/marked_with_toc.js"></script>
+    <script src="./static/js/drag_file.js"></script>
+    <script src="./static/js/save.js"></script>
+    <link href="./static/css/markdown-light.css" rel="stylesheet" />
+</head>
+
+<body>
+
+    <script type="text/javascript">
+        var xhr = new XMLHttpRequest();
+        xhr.onreadystatechange = function () {
+            if (xhr.readyState == 4 && xhr.status == 200) {
+                markedWithToc(xhr.responseText);
+            }
+        }
+        xhr.open("get", "document.md");
+        xhr.send();
+    </script>
+
+</body>
+
+</html>

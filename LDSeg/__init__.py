@@ -1,0 +1,3 @@
+# -*- coding: UTF-8 -*-
+from .main import main
+from .main import __version__
